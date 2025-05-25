@@ -1,3 +1,5 @@
+![Python Tests](https://github.com/MariuszM-PL/zadanie_3/actions/workflows/python-tests.yml/badge.svg)
+
 # mylib
 
 📦 **mylib** to prosta biblioteka Pythona zawierająca przydatne funkcje do przetwarzania danych, tekstów i obliczeń matematycznych.
@@ -18,13 +20,17 @@
 - `remove_punctuation(text)` – usuwa znaki interpunkcyjne.
 
 ## 🚀 Instalacja
-
+### 🔹 Opcja 1 – Ręczne importowanie
 Po prostu sklonuj repozytorium lub pobierz projekt, a następnie importuj moduły bezpośrednio z plików Python:
 
 ```python
 from data_utils import clean_missing_values
 from math_tools import is_prime
 from text_processing import count_words
+```
+### 🔹 Opcja 2 – Instalacja jako pakiet
+```bash
+pip install -e .
 ```
 
 ## ✅ Testy
